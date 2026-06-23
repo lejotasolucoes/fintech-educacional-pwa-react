@@ -48,6 +48,41 @@ Construção de uma aplicação web responsiva que atua como uma "fintech educac
 
 ---
 
+# 🎓 Educational Fintech & Talent Wallet (Banco de Talentos)
+
+![Version](https://img.shields.io/badge/version-18.6.0-blue.svg)
+![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)
+![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4.svg?logo=php)
+![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg?logo=sqlite)
+![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8.svg?logo=pwa)
+
+A Full Stack Progressive Web App (PWA) designed to gamify the educational experience. It features a complete token economy, QR code-based hardware integrations for attendance, and an internal marketplace for students and teachers.
+
+## ✨ Key Features
+
+*   **🪙 Dual Token Economy:** Digital wallets for both students and teachers. Teachers receive tokens for classes and can spend them, while students earn tokens for positive activities.
+*   **📷 Native QR Scanner:** Built-in hardware integration using the device's camera for lightning-fast attendance tracking and marketplace purchases.
+*   **🛍️ Virtual Shop:** An integrated marketplace where users can exchange earned tokens for real-world items or digital rewards.
+*   **🖨️ Dynamic Printing Engine:** Automated generation and formatting of ID badges, attendance sheets, and birthday cards for seamless A4 printing.
+*   **🔒 High Security:** Anti-brute force mechanisms, IP lockouts, passwordless magic-link (OTP) logins via email, and strict role-based access control (RBAC).
+
+## 📁 Project Structure
+
+For a deep dive into the system's engineering, see our [Architecture Document](docs/architecture/ARCHITECTURE.md).
+
+```text
+├── frontend/
+│   ├── index.html         # Main PWA and React Application
+│   └── assets/            # Images, Icons, and Audio files
+├── backend/
+│   ├── process.php        # Core API Router and Logic
+│   └── database/          # SQLite database storage (Ignored in Git)
+├── docs/
+│   ├── architecture/      # System diagrams and tech choices
+│   └── roadmap/           # Future development plans
+├── CHANGELOG.md           # Version history
+└── README.md
+
 ## 🛠️ Tech Stack
 - **Front-end:** React.js, Tailwind CSS, Chart.js, HTML5.
 - **Back-end:** PHP 8, RESTful API.
